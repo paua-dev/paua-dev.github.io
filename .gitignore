@@ -16,10 +16,10 @@
 *.asp
 *.cer
 *.csr
-*.css
+# *.css
 *.htm
 *.html
-*.js
+# *.js
 *.jsp
 *.php
 *.rss
@@ -80,6 +80,8 @@ Thumbs.db
 *.key
 *.pem
 
+/node_modules
+
 # -------------------------
 # BEGIN Whitelisted Files
 # -------------------------
@@ -89,3 +91,4 @@ Thumbs.db
 !.editorconfig
 !.phpcs.xml.dist
 
+node_modules
